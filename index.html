@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- displays site properly based on user's device -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+    <title>Frontend Mentor | Four card feature section</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+        body {
+            font-family: 'Poppins', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .text {
+            text-align: center;
+            max-width: 32rem;
+            margin: 0 auto;
+        }
+        
+        .cards {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 100px;
+        }
+        
+        .card {
+            padding: 20px;
+            max-height: 300px;
+            width: 345px;
+            height: 220px;
+            border-radius: 10px;
+            box-shadow: 0 1.5px 10px hsl(234, 12%, 34%);
+            background-color: white;
+        }
+        
+        .img-c {
+            text-align: right;
+        }
+        
+        .first {
+            margin-right: 1.875rem;
+            margin-top: auto;
+            margin-bottom: auto;
+            border-top: 4px solid hsl(180, 62%, 55%);
+        }
+        
+        .first-mid {
+            margin-right: 1.875rem;
+            margin-bottom: 1.875rem;
+            border-top: 4px solid hsl(0, 78%, 62%);
+        }
+        
+        .second-mid {
+            margin-right: 1.875rem;
+            border-top: 4px solid hsl(34, 97%, 64%);
+        }
+        
+        .last {
+            margin-right: 1.875rem;
+            margin-top: auto;
+            margin-bottom: auto;
+            border-top: 4px solid hsl(212, 86%, 64%);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <section class="text">
+            <h1 style="font-weight:lighter; font-size:30px">Reliable, efficient delivery</h1>
+            <h1 style="font-weight:bolder; font-size:30px">
+                Powered by Technology
+            </h1>
+            <p>Our Artificial Intelligence powered tools use millions of project data points to ensure that your project is successful </p>
+        </section>
+        <section class="cards">
+            <div class="card first">
+                <h3>Supervisor</h3>
+                <p>Monitors activity to identify project roadblocks </p>
+                <div class="img-c">
+                    <img src="./images/icon-supervisor.svg" alt="">
+                </div>
+            </div>
+            <div class="mid">
+                <div class="card first-mid">
+                    <h3>Team Builder</h3>
+                    <p>Scans our talent network to create the optimal team for your project </p>
+                    <div class="img-c">
+                        <img src="./images/icon-team-builder.svg" alt="">
+                    </div>
+                </div>
+                <div class="card second-mid">
+                    <h3>Karma</h3>
+                    <p>Regularly evaluates our talent to ensure quality </p>
+                    <div class="img-c">
+                        <img src="./images/icon-karma.svg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="card last">
+                <h3>Calculator</h3>
+                <p>Uses data from past projects to provide better delivery estimates </p>
+                <div class="img-c">
+                    <img src="./images/icon-calculator.svg" alt="">
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+
+</html>
